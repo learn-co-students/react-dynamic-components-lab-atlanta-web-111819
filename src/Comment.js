@@ -6,7 +6,7 @@ export default class Comment extends Component {
     render() {
         return (
             <div className='comment'>
-                <p>this.props.commentText</p>
+                <p>{this.props.commentText}</p>
             </div>
         )
     }
